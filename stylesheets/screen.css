@@ -66,3 +66,38 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/_header.scss */
+#header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/* line 5, ../sass/_header.scss */
+#header h1 a {
+  text-decoration: none;
+}
+
+/* line 8, ../sass/_header.scss */
+.buner {
+  /*background-image: url("") center/cover no-repeat;*/
+  background-size: cover;
+  min-height: 800px;
+  text-align: center;
+}
+
+/* line 14, ../sass/_header.scss */
+.buner h1 {
+  padding-top: 200;
+  display: inline-block;
+  border-bottom: 2px solid blue;
+  color: #ffffff;
+  line-height: 2em;
+  font-width: 700px;
+  font-size: 8em;
+}
+
+/* line 8, ../sass/screen.scss */
+body {
+  font-family: "Lato";
+}
