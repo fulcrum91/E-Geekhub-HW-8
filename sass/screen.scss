@@ -4,4 +4,24 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-
+@import "style320";
+@import "style460";
+@import "style768";
+@import "style960";
+@import "style1240";
+@import "style1440";
+body{
+  font-family: 'Lato', sans-serif;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+.fa-search-plus {
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  padding: 7px;
+  border: 1px solid white;
+}

@@ -1,0 +1,214 @@
+@media screen and (min-width: 768px) {
+  #header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  #header h1 a {
+    text-decoration: none;
+  }
+  .buner {
+    background-image: url(../image/image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    text-align: center;
+  }
+  .buner h1 {
+    padding-top: 200px;
+    display: inline-block;
+    border-bottom: 2px solid #15a4fa;
+    color: #ffffff;
+    font-size: 8em;
+  }
+  .buner p {
+    padding-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 47px;
+    margin-bottom: 40px;
+  }
+  .buner a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+
+  }
+  .btn-down {
+    padding: 22px 35px;
+    border: 1px solid #15a4fa;
+  }
+  .fa-chevron-down {
+    margin-top: 120px;
+    color: #fff;
+    display: block;
+  }
+  .design {
+    padding: 80px 0 110px 0;
+    text-align: center;
+    background-color: #f6f9f9;
+  }
+  .design h2 {
+    padding-bottom: 30px;
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .design p {
+    color: #999;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .info {
+    text-align: center;
+    padding: 65px 0 65px 0;
+  }
+  .fa-mobile {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    padding: 15px 35px;
+    background-color: #4ab6f8;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .fa-paper-plane, .fa-bullhorn {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    background-color: #4ab6f8;
+    color: white;
+    font-size: 40px;
+    padding: 30px 35px 30px 25px;
+  }
+  .info h3 {
+    padding-bottom: 22px;
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .info p {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .portfolio {
+    background-color: #f6f9f9;
+    padding: 80px 0 116px 0;
+    text-align: center;
+  }
+  .portfolio h2 {
+    padding-bottom: 22px;
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 400;
+  }
+  .portfolio p {
+    padding-bottom: 80px;
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .contact {
+    text-align: center;
+    background-image: url("../image/bg.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .contact h2 {
+    padding: 74px 0 20px 0;
+    color: #ffffff;
+    font-size: 41px;
+    font-weight: 400;
+  }
+  .contact p {
+    padding-bottom: 50px;
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer p {
+    padding: 38px;
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  footer a {
+    margin-top: 20px;
+  }
+  .fa-facebook, .fa-google-plus, .fa-linkedin, .fa-twitter {
+    color: #ffffff;
+    padding: 15px;
+    background-color: #2cacf7;
+  }
+  .li-example {
+    margin: 20px 0 30px 0;
+  }
+  .outer-box {
+    width: 300px;
+    height: 100%;
+    display: block;
+    position: relative;
+
+    img {
+      width: 347px;
+    }
+
+    .inner-box {
+      background: #2cacf7;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      top: 0;
+      left: 0;
+      position: absolute;
+      padding: 0;
+      transition: opacity .5s;
+
+      p {
+        color: #fff;
+        line-height: 150px;
+        text-align: center;
+      }
+      a {
+        color: #fff;
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      .inner-box {
+        opacity: .9;
+        transition: opacity .5s;
+      }
+    }
+  }
+  input[type="text"], input[type="email"], textarea {
+    color: #ffffff;
+    width: 450px;
+    margin: 10px;
+    padding: 30px;
+    background: transparent;
+    border: 1px solid gray;
+  }
+  label {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  input[type="button"] {
+    margin-top: 20px;
+    margin-bottom: 110px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 17px 51px;
+    border: 1px solid #15a4fa;
+  }
+}
