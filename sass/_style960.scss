@@ -7,10 +7,10 @@
     text-decoration: none;
   }
   .buner {
-    background-image: url(../image/image.png);
+    background-image: url(../image/image.png);/*А одной строкой никак?*/
     background-size: cover;
     background-position: center;
-    min-height: 800px;
+    min-height: 800px; /*лишнее*/
     text-align: center;
   }
   .buner h1 {
@@ -18,12 +18,12 @@
     display: inline-block;
     border-bottom: 2px solid #15a4fa;
     color: #ffffff;
-    font-size: 8em;
+    font-size: 8em;/*используем оди единицы изменерия. Либо пиксели либо ем*/
   }
   .buner p {
     padding-top: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 20px;/*одной строкой*/
     font-weight: 400;
     line-height: 47px;
     margin-bottom: 40px;
@@ -45,7 +45,7 @@
     display: block;
   }
   .design {
-    padding: 80px 0 110px 0;
+    padding: 80px 0 110px 0;/*padding: 80px 0 110px - даст тотже эффект*/
     text-align: center;
     background-color: #f6f9f9;
   }
