@@ -13,7 +13,7 @@
     text-align: center;
   }
   .buner h1 {
-    width: 415px;
+    width: 415px; /*не правильно ограничивать в ширину заголовок*/
     padding-top: 200px;
     display: inline-block;
     border-bottom: 2px solid #15a4fa;
@@ -130,7 +130,7 @@
   footer {
     text-align: center;
   }
-  footer p {
+  footer p { /*а САСС вложеность не лучше было бы сделать?*/ 
     padding: 38px;
     color: #999;
     font-size: 15px;
@@ -142,7 +142,7 @@
   .fa-facebook, .fa-google-plus, .fa-linkedin, .fa-twitter {
     color: #ffffff;
     padding: 15px;
-    background-color: #2cacf7;
+    background-color: #2cacf7;/*А чего они у тебя разной ширины?*/
   }
   .li-example {
     margin: 20px 0 30px 0;
